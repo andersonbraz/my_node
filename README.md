@@ -19,3 +19,10 @@ npm install
 ```shell
 nodemon index.js
 ```
+
+## History Commands
+
+```shell
+docker build -t my-node .
+docker run -p 9000:9000 my-node
+```
