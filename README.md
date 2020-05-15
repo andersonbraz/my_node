@@ -32,11 +32,11 @@ docker ps
 clear
 docker ps
 docker container ls -a
-docker container node-server
-docker rmi my-node
+docker container stop node-server
 docker container prune -f
 docker volume prune -f
 docker network prune -f
+docker rmi my-node
 docker ps
 docker container ls -a
 ```
