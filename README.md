@@ -1,6 +1,6 @@
 # Example API NodeJs with Express
 
-(My API localhost)[http://localhost:9000/metrics]
+[My API localhost](http://localhost:9000/metrics)
 
 
 ## Get Project
