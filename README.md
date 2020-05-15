@@ -29,8 +29,8 @@ nodemon index.js
 ## History Commands
 
 ```shell
-docker build -t my-node .
-docker run -d -p 9000:9000 --name node-server my-node
+docker build -t nodejs-api:1.0 .
+docker run -d -p 9000:9000 --name node-server nodejs-api:1.0
 docker ps
 ```
 
