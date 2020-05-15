@@ -25,24 +25,3 @@ npm install
 ```shell
 nodemon index.js
 ```
-
-## History Commands
-
-```shell
-docker build -t nodejs-api:1.0 .
-docker run -d -p 9000:9000 --name node-server nodejs-api:1.0
-docker ps
-```
-
-```shell
-clear
-docker ps
-docker container ls -a
-docker container stop node-server
-docker container prune -f
-docker volume prune -f
-docker network prune -f
-docker rmi nodejs-api:1.0
-docker ps
-docker container ls -a
-```
