@@ -1,7 +1,9 @@
 # Example API NodeJs with Express
 
 [http://localhost:9000/metrics](http://localhost:9000/metrics)
+
 [http://localhost:9000/members](http://localhost:9000/members)
+
 [http://localhost:9000/data](http://localhost:9000/data)
 
 
