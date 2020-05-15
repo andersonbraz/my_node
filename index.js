@@ -34,6 +34,10 @@ app.get('/members', (req, res) => {
     return res.json({ members });
 });
 
+app.get('/data', (req, res) => {
+    return res.json({ data });
+});
+
 // criação de rota que será acessada utilizando o método HTTP POST/
 // http://localhost:9000/add
 app.post('/add', (req, res) => {
