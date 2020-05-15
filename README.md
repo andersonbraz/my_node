@@ -24,5 +24,19 @@ nodemon index.js
 
 ```shell
 docker build -t my-node .
-docker run -p 9000:9000 my-node
+docker run -d -p 9000:9000 --name node-server my-node
+docker ps
+```
+
+```shell
+clear
+docker ps
+docker container ls -a
+docker container node-server
+docker rmi my-node
+docker container prune -f
+docker volume prune -f
+docker network prune -f
+docker ps
+docker container ls -a
 ```
