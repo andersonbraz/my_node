@@ -25,3 +25,13 @@ npm install
 ```shell
 nodemon index.js
 ```
+
+## References
+
+[Monitoring Node.js Applications on OpenShift with Prometheus](https://developers.redhat.com/blog/2018/12/21/monitoring-node-js-applications-on-openshift-with-prometheus/)
+
+[Prometheus monitoring example with Node.js](https://github.com/RisingStack/example-prometheus-nodejs)
+
+[How to Build a RESTful API in Node.js (with Express.js)](https://rapidapi.com/blog/nodejs-express-rest-api-example/)
+
+[Custom metrics in Node.js with OpenTelemetry (and Prometheus)](https://dev.to/yuriatgoogle/custom-metrics-in-node-js-with-opentelemetry-and-prometheus-3dbd)
