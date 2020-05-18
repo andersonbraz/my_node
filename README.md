@@ -35,3 +35,5 @@ nodemon index.js
 [How to Build a RESTful API in Node.js (with Express.js)](https://rapidapi.com/blog/nodejs-express-rest-api-example/)
 
 [Custom metrics in Node.js with OpenTelemetry (and Prometheus)](https://dev.to/yuriatgoogle/custom-metrics-in-node-js-with-opentelemetry-and-prometheus-3dbd)
+
+[Best JavaScript code snippets using prom-client](https://www.codota.com/code/javascript/modules/prom-client)
